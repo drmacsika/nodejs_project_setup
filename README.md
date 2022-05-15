@@ -8,33 +8,32 @@ You can install this preconfigured or run the installation manually with your ow
 - Install package.json
 
 ## Manual Installation Guide
-Set Up nodejs with express and type script
-<---------------------------------------->
-npm init -y
 
-# set up typescript
-npm i -D typescript ts-node nodemon @types/node @types/express
+### Set Up nodejs with express and type script
+- npm init -y
 
-# set the node js version
-node -v > .nvmrc
+### set up typescript
+- npm i -D typescript ts-node nodemon @types/node @types/express
 
-# configure eslint
-npm i -D eslint
-npx eslint --init, for node js, use airbnb, style, 
+### set the node js version
+- node -v > .nvmrc
 
-# Configure prettier and map to eslint
-npm i -D prettier eslint-config-prettier eslint-plugin-prettier
+### configure eslint
+- npm i -D eslint
+- npx eslint --init, for node js, use airbnb, style, 
 
-# setup absolute paths
-npm i -D eslint-import-resolver-typescript tsconfig-paths
+### Configure prettier and map to eslint
+- npm i -D prettier eslint-config-prettier eslint-plugin-prettier
 
-# setup env variables
-npm i -D dotenv-safe @types/dotenv-safe
+### setup absolute paths
+- npm i -D eslint-import-resolver-typescript tsconfig-paths
 
-# Setup jest
-npm i -D jest ts-jest @types/jest
-npx ts-jest config:init
-<---------------------------------------->
+### setup env variables
+- npm i -D dotenv-safe @types/dotenv-safe
+
+### Setup jest
+- npm i -D jest ts-jest @types/jest
+- npx ts-jest config:init
 
 
 ## Packages Installed
